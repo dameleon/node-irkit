@@ -1,0 +1,41 @@
+{
+  "name": "node-irkit",
+  "description": "Handling IRKit with node.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dameleon/node-irkit",
+  "author": {
+    "name": "dameleon",
+    "email": "dameleon@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dameleon/node-irkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dameleon/node-irkit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dameleon/node-irkit/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": "0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "async": "^0.2.10",
+    "lodash-node": "^2.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-watch": "*",
+    "grunt": "~0.4.4"
+  },
+  "keywords": []
+}
