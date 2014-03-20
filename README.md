@@ -7,6 +7,8 @@ Install the module with: `npm install node-irkit`
 
 ```javascript
 var node_irkit = require('node-irkit');
+
+
 ```
 
 ## Documentation
